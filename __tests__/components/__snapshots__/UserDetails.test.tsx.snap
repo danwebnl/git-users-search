@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserDetails /> renders and matches the snapshot 1`] = `
+<styled.div>
+  <ul>
+    <li>
+      <img
+        src="https://avatars0.githubusercontent.com/u/6805019?v=4"
+        style={
+          Object {
+            "width": 100,
+          }
+        }
+        title="danwebnl"
+      />
+    </li>
+    <li>
+      <a
+        href="https://github.com/danwebnl"
+        target="_blank"
+      >
+        GitHub Page
+      </a>
+    </li>
+    <li>
+      Type: 
+      User
+    </li>
+    <li>
+      Score: 
+      1111
+    </li>
+  </ul>
+</styled.div>
+`;

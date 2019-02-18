@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UsersList />  matches the snapshot 1`] = `
+<styled.div>
+  <h2>
+    Search Results
+  </h2>
+  <ul>
+    <li
+      key="user0"
+    >
+      <Link
+        replace={false}
+        to="/user/acount-a"
+      >
+        acount-a
+      </Link>
+    </li>
+    <li
+      key="user1"
+    >
+      <Link
+        replace={false}
+        to="/user/acount-b"
+      >
+        acount-b
+      </Link>
+    </li>
+  </ul>
+</styled.div>
+`;
+
+exports[`<UsersList />  updates via props 1`] = `
+<styled.div>
+  <h2>
+    Search Results
+  </h2>
+  <ul>
+    <li
+      key="user0"
+    >
+      <Link
+        replace={false}
+        to="/user/acount-a"
+      >
+        acount-a
+      </Link>
+    </li>
+    <li
+      key="user1"
+    >
+      <Link
+        replace={false}
+        to="/user/acount-c"
+      >
+        acount-c
+      </Link>
+    </li>
+  </ul>
+</styled.div>
+`;
+
+exports[`<UsersList />  updates via props 2`] = `
+<styled.div>
+  <h2>
+    Search Results
+  </h2>
+  <ul>
+    <li
+      key="user0"
+    >
+      <Link
+        replace={false}
+        to="/user/acount-a"
+      >
+        acount-a
+      </Link>
+    </li>
+    <li
+      key="user1"
+    >
+      <Link
+        replace={false}
+        to="/user/acount-c"
+      >
+        acount-c
+      </Link>
+    </li>
+  </ul>
+</styled.div>
+`;
